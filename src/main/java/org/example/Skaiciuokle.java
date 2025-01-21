@@ -26,10 +26,10 @@ public class Skaiciuokle {
     }
 
     // Dalyba
-    public int dalyba() {
+    public double dalyba() {
         if (b == 0) {
             throw new ArithmeticException("Dalyba iš nulio negalima!");
         }
-        return a / b;
+        return (double) a / b;
     }
 }
